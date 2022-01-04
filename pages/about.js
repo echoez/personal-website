@@ -12,8 +12,7 @@ export default function About() {
         className="px-4"
       >
         <div className="mb-6 text-center text-gray-800 dark:text-white">
-          Hi, I'm Katherine! I am a Software Engineer with a passion for developing web and mobile
-          applications that make a positive impact on peoples lives.
+          Hi, I'm Michael! I am a New York based Full-Stack Software Developer who loves building Web, Mobile and Cloud Applications
         </div>
         <div className="text-center text-gray-800 dark:text-white">
           In addition to coding and learning new tech, I enjoy rock climbing, drinking coffee,
