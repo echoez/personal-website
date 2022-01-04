@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import { faGithub, faTwitter, faLinkedinIn, faDev } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faLinkedinIn, faDev, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -44,9 +44,9 @@ export default function Layout({ children }) {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen text-gray-800 transition duration-1000 ease-in-out dark:text-white dark:bg-blueGray-700">
       <Head>
-        <title>Katherine Peterson</title>
+        <title>Michael Cadet</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <script defer data-domain="katherinempeterson.com" src="https://plausible.io/js/plausible.js"></script>
+        <script defer data-domain="michaelcadet.com" src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <div
         style={{ minWidth: '24rem', maxWidth: '37rem' }}
@@ -111,10 +111,18 @@ export default function Layout({ children }) {
           </a> */}
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-            href="https://blog.katherinempeterson.com"
+            href="https://blog.michaelcadet.com"
             target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl" icon={faPencilAlt} />
+          </a>
+
+          <a
+            className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
+            href="https://www.instagram.com/mikeapi"
+            target="_blank"
+          >
+            <FontAwesomeIcon className="mr-6 text-2xl" icon={faInstagram} />
           </a>
         </motion.div>
       </div>
